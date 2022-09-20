@@ -3,15 +3,15 @@
 int main() {
     double a;
     double p = 3.1415926;
-    double z1, z2, t1, t2, t3;
+    double b, c, d, e, f;
     printf("A:\n");
     scanf("%lf", &a);
-    t1 = 3 * p - 2 * a;
-    t2 = 5 * p + 2 * a;
-    z1 = (2 * pow(sin(t1), 2)) * pow(cos(t2), 2);
-    t3 = 2.5 * p - 8 * a;
-    z2 = 0.25 - (0.25 * (sin(t3)));
-    printf("Z1:%lf\n", z1);
-    printf("Z2:%lf\n", z2);
+    d = (3 * p) - (2 * a);
+    e = (5 * p) + (2 * a);
+    b = (2 * pow(sin(d), 2)) * pow(cos(e), 2);
+    f = (2.5 * p) - (8 * a);
+    c = 0.25 - (0.25 * (sin(f)));
+    printf("B:%lf\n", b);
+    printf("C:%lf\n", c);
     return 0;
 }
