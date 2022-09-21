@@ -4,8 +4,8 @@ int main() {
     char b[100];
     scanf("%d%s",&a,&b);
     printf("The number is:");
-    printf("%d",a);
-    printf(" ");
+    printf("%d\n",a);
     printf("The word is:");
     printf("%s",b);
     return 0;
+}
